@@ -1,7 +1,7 @@
-import { customTheme, Fonts } from '../src/styles/theme'
-import { ChakraProvider } from '@chakra-ui/react'
-import React from 'react';
-
+import { bigTheme } from "../src/styles/theme"
+import "@fontsource/libre-franklin/400.css"
+import { ChakraProvider } from "@chakra-ui/react"
+import React from "react"
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -14,10 +14,9 @@ export const parameters = {
 }
 
 export const decorators = [
-  (Story) => (
-    <ChakraProvider resetCSS theme={customTheme}>
-      <Fonts />
+  Story => (
+    <ChakraProvider resetCSS theme={bigTheme}>
       <Story />
     </ChakraProvider>
   ),
-];
+]
