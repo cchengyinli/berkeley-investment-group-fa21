@@ -8,7 +8,6 @@ export default {
 
 export const Template = args => <Button {...args}>Button</Button>
 
-//Sample Blue Button
 export const Sample = Template.bind({})
 
 Sample.args = {
