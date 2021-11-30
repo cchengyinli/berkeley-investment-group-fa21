@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react"
 
-export const bigTheme = extendTheme({
+const bigTheme = extendTheme({
   fonts: {
     heading: "Libre Franklin",
     body: "Libre Franklin",
@@ -24,3 +24,5 @@ export const bigTheme = extendTheme({
     },
   },
 })
+
+export default bigTheme

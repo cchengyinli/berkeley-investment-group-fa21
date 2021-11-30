@@ -3,13 +3,13 @@ import { Link, HStack } from "@chakra-ui/react"
 
 const NavbarLinks = () => {
   return (
-    <HStack spacing={"2.5em"}>
-      <Link>Home</Link>
-      <Link>Get Involved</Link>
-      <Link>Investment Fund</Link>
-      <Link>Our Network</Link>
-      <Link>Resources</Link>
-      <Link>Contact</Link>
+    <HStack spacing="2.5em">
+      <Link href="http://google.com">Home</Link>
+      <Link href="http://google.com">Get Involved</Link>
+      <Link href="http://google.com">Investment Fund</Link>
+      <Link href="http://google.com">Our Network</Link>
+      <Link href="http://google.com">Resources</Link>
+      <Link href="http://google.com">Contact</Link>
     </HStack>
   )
 }
